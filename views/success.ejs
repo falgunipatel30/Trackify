@@ -1,0 +1,32 @@
+<!-- <h1> Order complete</h1> -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/Intro">Dashboard</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="/"><span class="sr-only">(current)</span></a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="/users/logout">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="card text-center">
+  <div class="card-header">
+    <h1>Order details</h1>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Ticket Id : <%= newIssue._id %></h5>
+    <p class="card-text">Ticket Priority:<%= newIssue.ticket_prior  %> </p>
+    <p class="card-text">Ticket Type:<%= newIssue.ticket_type  %> </p>
+    <p class="card-text">Ticket Description:<%= newIssue.comment  %> </p>
+    <a href="#" class="btn btn-primary">Order Placed</a>
+  </div>
+  <div class="card-footer text-muted">
+    <%= newIssue.date %>
+  </div>
+</div>
