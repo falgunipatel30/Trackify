@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Trackify
 Ticket Management Tool for Business Unit 
 =======
@@ -25,4 +25,4 @@ $ npm run dev
 ### MongoDB
 
 Open "config/keys.js" and add your MongoDB URI, local or Atlas
->>>>>>> 9b1bfa5 (Working demo of Trackify)
+
