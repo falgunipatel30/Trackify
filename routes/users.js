@@ -193,15 +193,15 @@ router.post('/ticketissue',(req, res, next)=>{
   let transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-          user: 'falgunipateliya2010@gmail.com', // TODO: your gmail account
-          pass: 'Patel@30142' // TODO: your gmail password
+          user: 'user0@gmail.com', // TODO: your gmail account
+          pass: '<password>' // TODO: your gmail password
       }
   });
 
   // Step 2
   let mailOptions = {
-      from: 'falgunipateliya2010@gmail.com', // TODO: email sender
-      to: 'falguni.patel@intel.com', // TODO: email receiver
+      from: 'user0@gmail.com', // TODO: email sender
+      to: 'userq@gmail.com', // TODO: email receiver
       subject: 'Ticketing tool  - Your Ticket is Raised' ,
       text: 'Ticket Id : '+ newIssue._id + '\n' +
             'Ticket Type : '+ newIssue.ticket_type + '\n'+
