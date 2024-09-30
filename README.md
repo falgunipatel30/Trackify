@@ -28,13 +28,15 @@ Deployment Link: ---provide link------
 >
 > -   Email based login for register and login.
 > -   Notifying user about invalid login attempt   
-> -   
 
 > #### Ticket Creation Dashboard
->
-> -   Provide a visual dashboard displaying an overview of the user's transactions.
-> -   Enable users to create, update or delete any transaction.
-> -   Allow users to Logout
+> -   Allow users to create tickets and assign them to the appropriate team.
+> -   Send an email notification to the assigned team member upon ticket assignment.
+> -   Once the debugging team resolves the ticket, notify the user via email about the ticket status update.
+> -   
+> #### Ticket View Dashboard
+> -   Display a visual dashboard that provides an overview of ticket statuses.
+> -   Include filters to show how many tickets are resolved, in progress, and still open.
 
 ### Usage
 
