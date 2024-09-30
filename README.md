@@ -1,12 +1,23 @@
 
 # Trackify
-Ticket Management Tool for Business Unit 
-=======
-# Node.js & Passport Login
 
-This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
+Deployment Link: ---provide link------
 
-### Version: 2.0.0
+## Table of Contents
+
+-   [Project Description](#project-description)
+-   [Objectives](#objectives)
+-   [Features](#features)
+-   [Technologies Used](#technologies-used)
+-   [Environment Variables](#environment-variables)
+-   [Run Locally](#run-locally)
+-   [Tech Stack](#tech-stack)
+-   [Screenshots](#screenshots)
+
+## Project Description
+
+
+
 
 ### Usage
 
