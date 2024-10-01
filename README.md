@@ -33,10 +33,34 @@ Deployment Link: ---provide link------
 > -   Allow users to create tickets and assign them to the appropriate team.
 > -   Send an email notification to the assigned team member upon ticket assignment.
 > -   Once the debugging team resolves the ticket, notify the user via email about the ticket status update.
-> -   
+
 > #### Ticket View Dashboard
 > -   Display a visual dashboard that provides an overview of ticket statuses.
 > -   Include filters to show how many tickets are resolved, in progress, and still open.
+
+## Technologies Used
+
+> #### Backend
+>
+> -   Utilized Node.js and Express.js to build REST APIs serving as the application's backend.
+> -   Integrated the Nodemailer library to send emails for ticket creation notifications to users and resolution assignments to the responsible team.
+> -   Performed testing with Postman to ensure optimal performance and reliability.
+
+> #### Frontend
+>
+> -   Leveraged Bootstrap4.6 & html/css to desgin a seamless user interface for enhanced user experience.
+> -   Enhanced user convenience by eliminating repeated logins using Local Storage, maintaining persistent login session.
+
+> #### Database
+>
+> -   Stored all data, including user information and transaction details in MongoDB, a NoSQL database.
+> -   Utilized MongoDB Atlas, a cloud based database.
+
+> #### Deployment
+>
+> - 
+
+
 
 ### Usage
 
