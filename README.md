@@ -53,30 +53,68 @@ Deployment Link: ---provide link------
 
 > #### Database
 >
-> -   Stored all data, including user information and transaction details in MongoDB, a NoSQL database.
+> -   Stored all data, including user information and tickets/issue details in MongoDB, a NoSQL database.
 > -   Utilized MongoDB Atlas, a cloud based database.
 
 > #### Deployment
 >
-> - 
+> -  Deployement on AWS Beanstalk
+> -  TBD
+>
 
+## Environment Variables
 
+To run this project, you will need to add the following environment variables & constants 
 
-### Usage
+#### DB related environment variables
 
-```sh
-$ npm install
+-   Open "constants/app_constants.js" and add your MongoDB URL, local or atlas, database name & collection name 
+    
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/falgunipatel30/Trackify.git
 ```
 
-```sh
-$ npm start
-# Or run with Nodemon
-$ npm run dev
+Go to the project directory
+
+```bash
+  cd Trackify
+```
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+# This runs your app normally
+ $ node app.js
+
+# This runs your app in development mode using nodemon
+ $ npm run dev
 
 # Visit http://localhost:5000
 ```
+## Tech Stack
 
-### MongoDB
+**Client:** HTML/CSS, Bootstrap
 
-Open "config/keys.js" and add your MongoDB URI, local or Atlas
+**Server:** Node.js, Express.js
 
+**Database:** MongoDB Atlas
+
+**Testing:** Postman
+
+
+## Screenshots
+
+### Registration
+### Login
+### HomePage
+### Raise Ticket
+### Display Tickets
