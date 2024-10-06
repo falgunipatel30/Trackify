@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
 const passport = require('passport');
-const MongoClient = require("mongodb");
+const { MongoClient } = require("mongodb");
 const nodemailer = require('nodemailer');
 const xoauth2 = require('xoauth2');
 const constants = require('../constants/app_constants');
@@ -162,18 +162,17 @@ router.post('/ticketissue',(req, res, next)=>{
       date: req.body.date
 
   });
-  console.log(newIssue.user)
-  //console.log(domain)
-  console.log(haveIt)
-  newIssue.save(function storeUser(err, user) {
-     //TODO: check if the user was saved correctly.
-     if(err){
-       console.log(err)
-     }else{
-       console.log(user)
-     }
-  });
 
+  console.log(haveIt)
+
+  newIssue.save()
+  .then(user => {
+      console.log(user); // Success, log the saved user
+  })
+  .catch(err => {
+      console.log(err); // Handle any error
+  });
+ 
 
   res.render('success',{newIssue:newIssue})
 
