@@ -114,7 +114,42 @@ Start the server
 ## Screenshots
 
 ### Registration
+
+-   Entry Page
+
+    ![Entry Page](./screenshots/Entry_page.png)
+
+-   Email - Register with Email & password 
+
+    ![Email - Register OTP](./screenshots/Registration.png)
+
 ### Login
+-   Login 
+
+    ![Register - Set Password](./screenshots/login_page.png)
+
 ### HomePage
+-   Home Page - View mode
+
+    ![Home Page](./screenshots/main_dashboard_page.png)
+    
 ### Raise Ticket
+-   Ticket window
+
+    ![Ticket Window](./screenshots/ticket_window.png)
+
+-   Raise/Create Ticket Domain wise
+
+    ![Raise/Create Ticket](./screenshots/raise_ticket_domainwise.png)
+
+-   Order Placed/Ticket Raised
+
+    ![Order Placed](./screenshots/ticket_raised.png)
+
 ### Display Tickets
+-   Display Tickets with status
+
+    ![Display Tickets](./screenshots/ticket_analysis.png)
+
+
+
